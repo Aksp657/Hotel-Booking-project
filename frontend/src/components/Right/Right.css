@@ -1,0 +1,63 @@
+.l_container
+{
+   width: 83%;
+    
+   
+}
+.nav
+{
+    height: 80px;
+    background-color:#003B95;
+}
+.search
+{
+    border: none;
+    background-color:#003B95;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(150, 144, 144);
+    margin: 20px;
+    border-radius: 15px;
+
+}
+.search:hover
+{
+    border: none;
+}
+.search::placeholder
+{
+    padding: 20px;
+}
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.B
+{
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+}
+.A{
+    cursor: pointer;
+    
+}
+input::placeholder
+{
+    color: white
+    
+}
+.admin
+{
+    color: white;
+}
+.tn_display
+{
+    background-color: #7AA93C;
+}

@@ -1,0 +1,18 @@
+.pr_container
+{
+    margin: 0px 50px;
+}
+.pr_box
+{
+    display: flex;
+    gap: 50px;
+    margin: 20px 0px;
+}
+.pr_head
+{
+    margin: 20px 0px;
+}
+.pr_mainhead
+{
+    margin: 20px 50px;
+}

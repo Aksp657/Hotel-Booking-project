@@ -1,0 +1,15 @@
+.ven_main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px 50px;
+    border: 1px solid rgb(241, 238, 238);
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+}
+.heading
+{
+    margin: 40px 50px;
+}

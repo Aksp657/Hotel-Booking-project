@@ -1,0 +1,148 @@
+.table1 {
+    display: flex;
+    gap: 60px;
+}
+
+.Addhtl {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.htlsearch {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+}
+
+.side-H {
+    display: flex;
+    gap: 40px;
+}
+
+.add_btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    background-color: rgb(86, 233, 86);
+}
+
+.htlsearch::placeholder {
+    color: black;
+    padding: 20px;
+}
+
+.input_name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inp {
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+
+}
+
+.inp::placeholder {
+    color: black;
+    padding: 5px;
+}
+
+.feat {
+    width: 30px;
+    height: 20px;
+}
+
+.inp_main {
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.btn3 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    background-color: rgb(60, 57, 255);
+    color: white;
+}
+
+.btn3_main {
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+.t_display {
+
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 30px;
+
+}
+
+.tn_display {
+    display: flex;
+    background-color: #7AA93C;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 30px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* Ensures consistent column width */
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 40%;
+    /* Hotel Name */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 40%;
+    /* Location */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 40%;
+    /* Vendor */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 40%;
+    /* Phone */
+}
+
+
+
+td button {
+    margin-right: 8px;
+}

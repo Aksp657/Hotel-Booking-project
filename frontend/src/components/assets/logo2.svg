@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="200" rx="20" fill="#2C3E50"/>
+    <path d="M50 150V70C50 65 55 60 60 60H140C145 60 150 65 150 70V150" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="65" y="80" width="30" height="30" fill="white"/>
+    <rect x="105" y="80" width="30" height="30" fill="white"/>
+    <path d="M40 150H160" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50%" y="180" font-size="24" font-family="Arial, sans-serif" fill="white" text-anchor="middle">Hotel Booking</text>
+</svg>

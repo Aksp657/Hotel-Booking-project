@@ -1,0 +1,221 @@
+
+.table1
+{
+    display: flex;
+    gap: 60px;
+}
+.Addhtl
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.htlsearch
+{
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+}
+.side-H
+{
+    display: flex;
+    gap: 40px;
+}
+.add_btn
+{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    background-color: rgb(86, 233, 86);
+}
+.htlsearch::placeholder
+{
+    color: black;
+    padding: 20px;
+}
+.input_name
+{
+    display: flex;
+    gap: 10px; 
+    align-items: center;   
+}
+.inp
+{
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    
+}
+.inp::placeholder
+{
+    color: black;
+    padding: 5px;
+}
+.feat
+{
+    width: 30px;
+    height: 20px;
+}
+.inp_main
+{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.btn3
+{
+        width: 100px;
+        height: 40px;
+        border: 1px solid rgb(202, 199, 199);
+        border-radius: 15px;
+        background-color: rgb(60, 57, 255);
+        color: white;
+}
+.btn3_main
+{
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 20px 0px;
+}
+.t_display
+{
+    
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius:10px ;
+    margin: 0px 30px;
+    
+}
+.tn_display
+{
+        display: flex;
+        background-color: #7AA93C;
+        color: white;
+        border-radius: 10px;
+        margin: 0px 30px;
+        
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* Ensures consistent column width */
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    width: 5%;
+    /* Hotel Name */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 5%;
+    /* Location */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 5%;
+    /* Vendor */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 5%;
+    /* Phone */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    width: 12.5%;
+    /* Joined At */
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    width: 12.5%;
+    /* Actions */
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+    width: 12.5%;
+    /* Actions */
+}
+th:nth-child(8),
+td:nth-child(8) {
+    width: 12.5%;
+    /* Actions */
+}
+
+td button {
+    margin-right: 8px;
+}
+
+.preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .preview-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  
+  .preview-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+ .add_btn2 {
+     width: 100px;
+     height: 40px;
+     border: 1px solid rgb(202, 199, 199);
+     border-radius: 15px;
+     background-color: rgb(243, 255, 243);
+ }
+
+ .edit {
+     width: 100px;
+     height: 33px;
+     border: none;
+     background-color: white;
+     cursor: pointer;
+     color: black;
+     border-radius: 15px;
+     opacity: 1;
+     transition: 0.3s;
+
+ }
+
+ .edit:hover {
+     opacity: 0.5;
+ }

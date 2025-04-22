@@ -1,0 +1,50 @@
+.logo
+{
+    
+    max-width: 150px;
+    padding: 5px 9%;
+    
+   
+   
+}
+.container
+{
+    width: 17%;
+    background-color:#003B95;
+    height: 1300px;
+    border: 0.3px solid rgb(170, 167, 167);
+}
+.menu
+{
+    color: white;
+    
+    
+    
+}
+
+
+ul
+{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+.list
+{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.btn {
+    border: none;
+    padding: 0;
+    background-color:rgb(14, 14, 90) ;
+    color: white;
+    
+}
+li:hover
+{
+    background-color: #053070;
+}

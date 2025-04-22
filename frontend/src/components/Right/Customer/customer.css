@@ -1,0 +1,208 @@
+.table1 {
+    display: flex;
+    gap: 60px;
+}
+
+.Addhtl {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.htlsearch {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+}
+
+.side-H {
+    display: flex;
+    gap: 40px;
+}
+
+.add_btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    background-color: rgb(86, 233, 86);
+}
+
+.htlsearch::placeholder {
+    color: black;
+    padding: 20px;
+}
+
+.input_name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inp {
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+
+}
+
+.inp::placeholder {
+    color: black;
+    padding: 5px;
+}
+
+.feat {
+    width: 30px;
+    height: 20px;
+}
+
+.inp_main {
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.btn3 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    background-color: rgb(60, 57, 255);
+    color: white;
+}
+
+.btn3_main {
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+.t_display {
+
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 30px;
+
+}
+
+.tn_display {
+    display: flex;
+    background-color: rgb(35, 163, 125);
+    color: white;
+    border-radius: 10px;
+    margin: 0px 30px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* Ensures consistent column width */
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cus_th:nth-child(1),
+.cus_td:nth-child(1) {
+    width: 16.6%;
+    /* Hotel Name */
+}
+
+.cus_th:nth-child(2),
+.cus_td:nth-child(2) {
+    width: 16.6%;
+    /* Location */
+}
+
+.cus_th:nth-child(3),
+.cus_td:nth-child(3) {
+width: 16.6%;
+    /* Vendor */
+}
+
+.cus_th:nth-child(4),
+.cus_td:nth-child(4) {
+    width: 16.6%;
+    /* Phone */
+}
+
+.cus_th:nth-child(5),
+.cus_td:nth-child(5) {
+    width: 16.6%;
+    /* Joined At */
+}
+.cus_th:nth-child(6),
+.cus_td:nth-child(6) {
+    width: 16.6%;
+    /* Joined At */
+}
+
+
+
+
+.preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.preview-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+.preview-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.add_btn2 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 15px;
+    background-color: rgb(243, 255, 243);
+}
+
+.editt {
+    width: 70px;
+    height: 33px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+    opacity: 1;
+    transition: 0.3s;
+
+}
+
+.editt:hover {
+    opacity: 0.5;
+}
